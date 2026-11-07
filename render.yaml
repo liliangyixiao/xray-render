@@ -1,0 +1,10 @@
+services:
+  - type: web
+    name: xray-render
+    env: docker
+    repo: https://github.com/liliangyixiao/xray-render
+    plan: free
+    region: oregon
+    envVars:
+      - key: UUID
+        sync: false
